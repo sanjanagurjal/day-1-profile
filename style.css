@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family:'Poppins', sans-serif;
     background-color: #f5f5f5;
     color: #333333;
 }
@@ -46,12 +46,6 @@ section h2{
     margin-bottom: 15px;
     border-bottom: 2px solid #3498db;
     padding-bottom: 8px;
-}
-
-ul li{
-    padding: 8px 0;
-    color: #555555;
-    border-bottom: 1px solid #eeeeee;
 }
 
 footer{
@@ -125,4 +119,56 @@ nav ul li a:hover{
     border-radius: 25px;
     font-size: 14px;
     font-weight: bold;
+}
+
+.hobbies-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.hobby-card{
+    background-color: #eaf4fb;
+    border-left: 4px solid#3498db;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: #2c3e50;
+}
+
+.about-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    align-items: center;
+}
+
+.about-stats{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:15px;
+}
+
+.stat-card{
+    background-color: #eaf4fb;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    border-left: 4px solid #3498db;
+}
+
+.stat-card h3{
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.stat-card p{
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 3px;
+}
+
+.stat-card span{
+    font-size: 12px;
+    color: #7f8c8d;
 }
